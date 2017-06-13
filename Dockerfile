@@ -6,6 +6,9 @@ RUN apk --update add nginx php5-fpm && \
 ADD www /www
 ADD nginx.conf /etc/nginx/
 ADD php-fpm.conf /etc/php5/php-fpm.conf
+ADD run.sh /run.sh
+
+ENV LISTEN_PORT=80
 
 EXPOSE 80
-CMD php-fpm -d variables_order="EGPCS" && exec nginx -g "daemon off;"
+CMD /run.sh
