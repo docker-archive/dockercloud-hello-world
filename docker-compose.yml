@@ -1,4 +1,7 @@
-helloworld:
-  build: .
-  ports:
-    - "80:80"
+version: "3"
+services: 
+  helloworld:
+    images: dockercloud/hello-world
+    build: .
+    ports:
+      - "80:80"
