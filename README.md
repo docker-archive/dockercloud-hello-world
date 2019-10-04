@@ -1,7 +1,7 @@
 hello-world
 ===========
 
-[![Deploy to Docker Cloud](https://files.cloud.docker.com/images/deploy-to-dockercloud.svg)](https://cloud.docker.com/stack/deploy/)
+[![Deploy to Docker Cloud](https://github.com/docker/dockercloud-hello-world/blob/master/www/logo.png?raw=true)](https://cloud.docker.com/stack/deploy/)
 
 Sample docker image to test docker deployments
 
